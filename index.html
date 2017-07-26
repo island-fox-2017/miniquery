@@ -14,6 +14,11 @@
       .shaded {
         color: gray;
       }
+
+      /*.klass {
+        display : none;
+        color: gray;
+      }*/
     </style>
     <script src="lib/miniquery.js"></script>
   </head>
@@ -56,8 +61,8 @@
     function demoDOM() {
       DOM.hide('.klass')
       DOM.show('.klass')
-      DOM.removeClass('.klass', 'shaded')
       DOM.addClass('.klass', 'shaded')
+      DOM.removeClass('.klass', 'shaded')
     }
 
     function demoEventDispatcher() {
@@ -68,7 +73,7 @@
 
     function demoAjax() {
       AjaxWrapper.request({
-        url: 'http://localhost:3000/',
+        url: 'http://127.0.0.1:8080/',
         type: 'GET',
         success: function(data) {
           console.log("Success: ", data)
