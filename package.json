@@ -1,23 +1,26 @@
 {
   "name": "miniquery",
-  "version": "0.1.0",
-  "description": "miniquery, a jQuery clone",
-  "main": "lib/miniquery.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/hacktiv8/miniquery.git"
+    "url": "git+https://github.com/adnin31/miniquery.git"
   },
-  "keywords": [
-    "javascript",
-    "query"
-  ],
-  "author": "Hacktiv8 <dev@hacktiv8.com>",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hacktiv8/miniquery/issues"
+    "url": "https://github.com/adnin31/miniquery/issues"
   },
-  "homepage": "https://github.com/hacktiv8/miniquery#readme"
+  "homepage": "https://github.com/adnin31/miniquery#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  }
 }
