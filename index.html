@@ -31,6 +31,7 @@
     <button type="button" name="button-event" onclick="demoEventDispatcher()">EventDispatcher</button>
     <button type="button" name="button-ajax" onclick="demoAjax()">AJAX Request</button>
     <button type="button" name="button-alias" onclick="demoMiniQuery()">Namespace miniquery</button>
+    <button type="button" name="button-alias" onclick="demoMiniQuery2()">Namespace miniquery2</button>
     <button type="button" name="button-alias" onclick="demoAlias()">Alias $</button>
 
     <hr>
@@ -90,6 +91,24 @@
       setTimeout(function() {
         miniquery("#eyed").show()
       }, 2000)
+    }
+
+    // function demoMiniQuery() {
+    //   // miniquery
+    //   $.ajax({
+    //     url: 'http://127.0.0.1:8080/',
+    //     type: 'GET',
+    //     success: function(data) {
+    //       console.log("Success: ", data)
+    //     },
+    //     fail: function() {
+    //       console.log("ERROR")
+    //     }
+    //   })
+    // }
+
+    function demoMiniQuery2() {
+      $('.klass')
     }
 
     function demoAlias() {
